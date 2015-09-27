@@ -50,7 +50,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'CrowdRev.urls'
+ROOT_URLCONF = 'crowdreview.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'CrowdRev.wsgi.application'
+WSGI_APPLICATION = 'crowdreview.wsgi.application'
 
 
 # Database

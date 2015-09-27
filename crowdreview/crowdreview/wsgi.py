@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "CrowdRev.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "crowdreview.settings")
 
 application = get_wsgi_application()
